@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="2"
+    android:rowCount="4"
+    >
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="Inicio"
+        style="@style/cell"
+        />
+
+    <TextView
+        android:id="@+id/tvInicio"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:text="Inicio"
+        style="@style/cell"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_row="1"
+        android:layout_column="0"
+        style="@style/cell"
+
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        style="@style/cell"
+
+        />
+
+    <EditText
+        android:id="@+id/etHey"
+        android:text="Hey"
+        style="@style/cell"
+
+        />
+
+    <RadioButton
+        android:id="@+id/rbtnOption"
+        android:text="Option A"
+        style="@style/cell"
+
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        style="@style/cell"
+
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        style="@style/cell"
+        />
+
+
+</GridLayout>
